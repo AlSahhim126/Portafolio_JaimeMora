@@ -1,4 +1,4 @@
-Portafolio de proyectos — Jaime
+**Portafolio de proyectos — Jaime**
 
 Bienvenido a mi portafolio, donde recopilo algunos de los proyectos de análisis de datos,
 automatización y liderazgo que he desarrollado en los últimos años. Cada proyecto incluye una breve
