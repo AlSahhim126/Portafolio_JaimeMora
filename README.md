@@ -11,27 +11,7 @@ Por razones de confidencialidad no publico código ni datos reales, pero sí inc
 
 ## 📊 Tableros Power BI
 
-### 1. MotoGlanz – Dashboard de Operaciones y Ventas
-
-**Resumen:**  
-Dashboard para mi emprendimiento de detailing de motos, donde centralizo:
-
-- Ventas por tipo de servicio.
-- Frecuencia de clientes y ticket promedio.
-- Horarios pico y comportamiento de la demanda.
-
-**Impacto:**
-
-- Mejor decisión sobre precios, promociones y horarios de atención.
-- Visibilidad de KPI clave para crecer el negocio.
-
-**Video demo:**
-
-- [Demo del dashboard de MotoGlanz](ENLACE_PENDIENTE)
-
----
-
-### 2. QuirónPrevención – Tableros de Gestión para Áreas Administrativa, Técnica y Talento Humano
+### 1. QuirónPrevención – Tableros de Gestión para Áreas Administrativa, Técnica y Talento Humano
 
 **Resumen:**  
 Conjunto de dashboards corporativos que integran información de:
@@ -47,48 +27,136 @@ Conjunto de dashboards corporativos que integran información de:
 
 **Video demo:**
 
-- [Visión general de los dashboards de QuirónPrevención](ENLACE_PENDIENTE)
-
+- [Visión general de los dashboards de QuirónPrevención](https://drive.google.com/file/d/15lLUfrAekaDmqTx58OkvGxQuGqi6KNdj/view?usp=sharing)
 ---
 
-### 3. Tableros de Selección y Talento Humano (datos anonimizados)
+### 2. QuirónPrevención – Tableros de Gestión Dedicada al Área Técnica
 
 **Resumen:**  
-Modelos de Power BI orientados a:
+Dashboard corporativo que integran información de:
 
-- Seguimiento de procesos de selección.
-- Embudo de candidatos (aplicación → entrevistas → selección).
-- Métricas de tiempo de respuesta y efectividad de las fuentes de reclutamiento.
+- Planeadores, control de horas y productividad.
+- Rotación de personal, movimiento histórico. 
+- Detalles técnicos por profesional para seguimiento.
 
 **Impacto:**
 
-- Mayor control sobre tiempos de contratación.
-- Apoyo a decisiones de reclutamiento y priorización de vacantes.
+- Reducción significativa del tiempo dedicado a preparar reportes manuales.
+- Mejor visibilidad de indicadores para directivos y jefes de área.
+- Consolidación de información para auditorías y almacenamiento de datos. 
 
 **Video demo:**
 
-- [Dashboard de procesos de selección](ENLACE_PENDIENTE)
+- [Visión general del dashboard Área Técnica](https://drive.google.com/file/d/1Vd1U6lsfOEw3ZHSsP44NDTE1FWUky--W/view)
+
+---
+
+### 3. OXXO – Tablero de Ventas, Maduración e Impacto Comercial (prueba técnica)
+
+**Resumen:**  
+Tablero en Power BI desarrollado como parte de una **prueba técnica**, enfocado en analizar el
+comportamiento de ventas y la maduración comercial, incluyendo:
+
+- Evolución de ventas por tienda, región y periodo.
+- Curvas de maduración de ventas (cómo evolucionan las tiendas / puntos de venta desde su apertura).
+- Comparación de desempeño entre tiendas consolidadas vs. tiendas nuevas.
+- Proyecciones de ventas basadas en tendencias históricas y patrones de crecimiento.
+
+**Impacto (sobre el caso de estudio):**
+
+- Mejor entendimiento del ciclo de maduración de las tiendas y su impacto en el resultado global.
+- Soporte para decisiones sobre inversión, apertura/cierre de puntos de venta y enfoque comercial.
+- Identificación de tiendas con alto potencial vs. bajo desempeño para acciones específicas.
+
+**Video demo:**
+
+- [Dashboard de ventas y maduración para OXXO (prueba técnica)](https://drive.google.com/file/d/1RBMm0XMN3ZDVf-98sfVlRiy-7eroCQuY/view?usp=sharing)
+- [Presentación elaborada(prueba técnica)](https://drive.google.com/file/d/1RPHbthuPU5QejhE-wDRenesafDQ3l2WX/view?usp=sharing)
+
+---
+
+### 4. La Ascensión – Tablero de Contratos, Beneficiarios y Valor Mensual (prueba técnica)
+
+**Resumen:**  
+Tablero en Power BI desarrollado como **prueba técnica** para La Ascensión, enfocado en analizar
+el portafolio de contratos de protección exequial. El modelo permite:
+
+- Filtrar por año, mes, sucursal, plan, cobertura y estado del contrato.
+- Ver el total de **contratos** y **beneficiarios** activos en el periodo.
+- Analizar contratos por sucursal, planes y coberturas.
+- Revisar el **valor mensual de los contratos por sucursal** y la distribución de beneficiarios por plan.
+
+**Impacto (sobre el caso de estudio):**
+
+- Mayor visibilidad del desempeño comercial por sucursal y tipo de plan.
+- Identificación de sucursales con mayor valor mensual y concentración de contratos.
+- Apoyo a decisiones sobre qué planes y coberturas impulsar en cada ciudad o canal.
+
+**Video demo:**
+
+- [Dashboard de contratos y beneficiarios – La Ascensión (prueba técnica)](https://drive.google.com/file/d/1DqQI-7E752Z_uMM9MpS-M1Lp5DAuLxwL/view?usp=sharing)
+
+---
+
+### 5. Monitor de robots RPA – Flujos de escritorio en Power Automate
+
+**Resumen:**  
+Panel de analítica nativo de Power Automate que utilizo como **tablero de monitoreo** para todos mis
+robots de escritorio (Power Automate Desktop).  
+Desde este panel puedo:
+
+- Filtrar por rango de fechas, flujo de escritorio, máquina y grupo de máquinas.
+- Ver el número total de ejecuciones completadas en el periodo.
+- Analizar la **tasa de error** y el comportamiento diario de las ejecuciones.
+- Revisar el estado de los flujos (correcta, con errores, cancelada) y su tendencia en el tiempo.
+
+> Nota: El diseño visual del tablero es nativo de la plataforma; mi aporte está en la
+> **orquestación y estandarización de los bots**, la configuración del monitoreo y el uso del panel
+> para gestionar capacidad, errores y mejoras.
+
+**Impacto:**
+
+- Visibilidad centralizada del desempeño de todos los robots RPA.
+- Detección temprana de bots con alta tasa de error para priorizar correcciones.
+- Mejores decisiones sobre horarios de ejecución y distribución de carga entre máquinas.
+
+**Video demo:**
+
+- [Monitor de robots RPA en Power Automate Desktop](https://drive.google.com/file/d/18q8QdZdbC8nyDKtYJzTDKL613zvUXsGW/view?usp=sharing)
 
 ---
 
 ## ⚙️ Automatizaciones (Power Automate / n8n / Flujos ETL)
 
-### 4. MotoGlanz – Automatización de Citas y Pagos
+### 6. MotoGlanz – Bot de registro de lavados con IA (n8n + Telegram + OpenAI)
 
 **Resumen:**  
+Flujo en **n8n** que orquesta un bot de Telegram para registrar lavados de MotoGlanz usando IA:
 
-- Flujos que registran y gestionan citas de lavado de motos.
-- Confirmaciones y recordatorios automáticos por mensajería.
-- Registro de servicios y pagos en la nube para alimentar dashboards.
+- Recibe el mensaje desde Telegram (texto y opcionalmente foto de la moto).
+- Extrae el texto del chat y valida si el mensaje trae foto (`has_photo?`).
+- Si hay foto:
+  - Descarga el archivo desde Telegram (`Get a file`),
+  - lo sube a Google Drive (`Upload_photo`) y
+  - genera la URL pública (`URL_file` / `URL_file_empty` + `Join_photo_nophoto`).
+- Construye el cuerpo para la IA (`Build OpenAI Body`) y lo envía a un **AI Agent**:
+  - Modelo de chat de OpenAI,
+  - memoria en Postgres,
+  - parser estructurado para devolver un JSON con campos como placa, tipo de lavado, fecha, valor, etc.
+- El resultado se parsea (`Parse IA`), se aplican reglas (`byModo`, `val_obligatorios`) y se valida si la información está completa (`Complete_info?`).
+  - Si está completa → se inserta el registro definitivo de lavado (`Insert_lavado`) y se responde al cliente con confirmación (`Answer_Complete`).
+  - Si falta información → se guarda como borrador (`Insert_borrador`) y el bot responde pidiendo los datos faltantes (`Answer_Faltantes`).
 
 **Impacto:**
 
-- Disminución de la atención manual para agendar y confirmar citas.
-- Menos errores en el registro de información de clientes y servicios.
+- Transforma un chat informal en **registros estructurados** listos para usar en dashboards y reportes.
+- Reduce el tiempo de digitación manual y los errores al registrar lavados.
+- Permite que el cliente solo “hable con el bot” (y mande una foto) mientras la IA se encarga de interpretar y estructurar la información.
 
 **Video demo:**
 
-- [Flujos de automatización de citas y pagos](ENLACE_PENDIENTE)
+- [Bot de registro de lavados – n8n + Telegram + IA]()
+
 
 ---
 
@@ -266,6 +334,43 @@ Modelos de Power BI orientados a:
 **Video demo:**
 
 - [Plantillas y herramientas avanzadas en Excel](ENLACE_PENDIENTE)
+
+---
+
+## 🔬 Proyectos experimentales / en desarrollo
+
+### 6. MotoGlanz – Bot experimental de registro de lavados con IA (n8n + Telegram + OpenAI)
+
+**Estado:** En desarrollo (prototipo, no productivo).
+
+**Resumen:**  
+Prototipo de flujo en **n8n** para que un bot de Telegram registre lavados de MotoGlanz usando IA:
+
+- Recibe mensajes desde Telegram (texto y opcionalmente foto de la moto).
+- Extrae el texto del chat y evalúa si el mensaje trae foto (`has_photo?`).
+- Si hay foto:
+  - Descarga el archivo desde Telegram (`Get a file`),
+  - lo sube a Google Drive (`Upload_photo`) y
+  - genera una URL (`URL_file` / `URL_file_empty` + `Join_photo_nophoto`).
+- Construye el cuerpo de petición para el modelo de IA (`Build OpenAI Body`) y lo envía a un **AI Agent**:
+  - Modelo de chat de OpenAI,
+  - memoria en Postgres,
+  - parser estructurado para devolver un JSON con datos del lavado (placa, tipo, valor, etc.).
+- El flujo intenta:
+  - Validar la información (`byModo`, `val_obligatorios`, `Complete_info?`),
+  - insertar el registro como lavado completo (`Insert_lavado`) o como borrador (`Insert_borrador`),
+  - responder al usuario por Telegram con confirmación o solicitud de datos faltantes.
+
+**Objetivo del proyecto:**
+
+- Pasar de conversaciones informales en chat a **registros estructurados** que luego alimenten una base de datos y dashboards.
+- Reducir al mínimo la digitación manual en el registro de lavados.
+- Explorar la integración entre bots, n8n y modelos de IA para automatizar la operación de MotoGlanz.
+
+**Video demo (cuando esté listo):**
+
+- [Bot experimental de registro de lavados – n8n + Telegram + IA](ENLACE_PENDIENTE)
+
 
 ---
 
