@@ -369,7 +369,7 @@ Prototipo de flujo en **n8n** para que un bot de Telegram registre lavados de Mo
 
 **Video demo (cuando esté listo):**
 
-- [Bot experimental de registro de lavados – n8n + Telegram + IA](ENLACE_PENDIENTE)
+- ![Flujo n8n de MotoGlanz](flujo_n8n_motoglanz.png)
 
 
 ---
